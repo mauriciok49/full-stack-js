@@ -1,14 +1,3 @@
-let firstFavNumber = 21;
-let secondFavNumber = 10;
-
-console.log(firstFavNumber > secondFavNumber);
-console.log(firstFavNumber < secondFavNumber);
-console.log(firstFavNumber >= secondFavNumber);
-console.log(firstFavNumber <= secondFavNumber);
-console.log(firstFavNumber === secondFavNumber);
-console.log(firstFavNumber == secondFavNumber);
-console.log(firstFavNumber !== secondFavNumber);
-console.log(firstFavNumber != secondFavNumber);
-
-
-
+let firstName = 'Mauricio'
+let secondName = "Cerqueira"
+console.log(secondName);
