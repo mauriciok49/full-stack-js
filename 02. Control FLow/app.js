@@ -1,9 +1,7 @@
-let favActorFirstName = 'Mads '
-let favActorLastName = 'Mikkelsen'
-let fullName = favActorFirstName + favActorLastName
-let upperCase = fullName.toUpperCase()
-let message = `my favorite actor is ${upperCase} and thats it`
-
-message += ', his best show is sillicon valley'
-
-console.log(message);
+for (let i = 1; i <= 10; i++) {
+    console.log('laco externo', i)
+    for (let j = 1; j <= 5; j++) {
+        console.log('laco interno', j)
+        
+    }   
+}
